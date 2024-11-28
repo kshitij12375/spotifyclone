@@ -1,0 +1,166 @@
+
+body{
+    background-color: black;
+}
+.left{
+    width: 25vw;
+    
+    
+}
+
+.right{
+    width: 75vw;
+}
+.logo img{
+    width: 90px;
+    height: 50px;
+}
+.home ul li{
+    list-style: none;
+    color: white;
+}
+ul{
+    position: relative;
+    right: 30px;
+}
+li{
+    margin-top: 10px;
+}
+.library{
+    height: 70vh;
+    color: white;
+}
+p{
+
+margin-right: 848px;
+}
+.signing{
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(181, 178, 178);
+    margin-top: 10px;
+}
+h3{
+    color: WHITE;
+}
+.cards img{
+    height:160px
+    ;
+    width: 155px;
+}
+.cards{
+    padding: 12px;
+    margin-right: 10px;
+    height: 230px;
+    width: 150px;
+}
+.class{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+.links{
+    color: rgb(181, 178, 178);
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    font-size: 11px;
+    margin-right: 4px;
+    
+}
+.links a{
+    gap:7px;
+}
+@media only screen and (max-width:395px){
+    .logo img{
+        width: 74px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width:395px){
+    .sidebar{
+    flex-direction: column;
+    margin-top: 17px;
+    padding-top: 5px;
+}
+}
+@media only screen and (max-width:395px){
+    .mar{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:395px){
+    a{
+        position: relative;
+        right: 727px;
+    }
+}
+@media only screen and (max-width:395px){
+    button{
+        position: relative;
+        right: 727px;
+        top:10px;
+        height:20px
+    }
+}
+@media only screen and (max-width:395px){
+   .library{
+    height: 551px;
+    width: 77px;
+
+   }
+}
+@media only screen and (max-width:395px){
+    .home{
+   
+     width: 77px;
+ 
+    }
+ }
+ @media only screen and (max-width:850px )and (min-width:456px){
+    a{
+        position: relative;
+        right: 419px;
+    }
+}
+@media only screen and (max-width:850px) and (min-width:456px){
+    button{
+        position: relative;
+    right: 414px;
+
+
+        top:10px;
+        height:20px
+    }
+}
+.playbar{
+    color: white;
+    position: relative;
+    top: 315px;
+   
+    background-color: lightgreen;
+    align-items: center;
+  
+}
+@media only screen and (max-width:455px){
+    .playbar{
+        top: 60px;
+        width: 220px;
+    
+    }
+}
+@media only screen and (max-width:850px) and (min-width:456px){
+    .playbar{
+        top: 260px;
+        width: 600px;
+    
+    }
+}
